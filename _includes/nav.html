@@ -1,0 +1,24 @@
+<div id="nav-wrapper">
+<!-- Nav -->
+<nav id="nav">
+{% assign navurl = page.url | remove: 'index.html' %}
+<ul>
+	{% for item in include.nav %}
+	<li>
+		<a href="{{ item.url }}">
+			{% if item.url == navurl %}
+				<bbbb>{{ item.text }}</bbbb>
+			{% else %}
+				{{ item.text }}
+			{% endif %}
+		</a>
+	</li>
+{% if item.subitems and navurl contains item.url %}
+		<bbbb_child>{% include nav.html nav=item.subitems %}</bbbb_child>
+	{% endif %}
+	{% endfor %}
+</ul>
+</nav>
+</div>
+
+

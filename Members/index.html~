@@ -1,0 +1,78 @@
+---
+title: Ecological Informatics
+layout: default
+---
+<!-- Main -->
+	<div id="main">
+		<div id="content" class="container">
+					<section>
+						<header>
+						<h2>People</h2>
+						</header>
+						<div class="row">
+			<section class="4u">
+				<class="image full"><img src="/assets/images/Sue.jpg" alt="">
+				<h3>Susan P. Worner</h3>
+				<h4>Associate Professor</h4>
+				<h4>Bio-Protection Research Centre, NZ</h4>
+				<span class="pennant"><a href="mailto:Susan.Worner@lincoln.ac.nz" ><span class="fa fa-envelope-o"></span></a> <a href="http://bioprotection.org.nz/users/sue-worner" ><span class="fa fa-desktop" style="font-size:13px;" ></span></a></span>
+				
+			</section>
+			<section class="4u">
+				<class="image full"><img src="/assets/images/Senait.jpg" alt="">
+				<h3>Senait Senay</h3>
+				<h4>Research Associate</h4>
+				<h4>University of Minnesota, USA</h4>
+				<span class="pennant"><a href="mailto:ssenay@umn.edu" ><span class="fa fa-envelope-o"></span></a> <a href="http://www.instepp.umn.edu/about-us/people/senait-senay"><span class="fa fa-desktop" style="font-size:13px;"></span></a> <a href="http://twitter.com/TNBAngel" ><span class="fa fa-twitter"></span></a> <a href="http://www.linkedin.com/in/senait-d-senay-015a9229" ><span class="fa fa-linkedin"></span></a></span>
+
+			</section>
+			<section class="4u">
+				<class="image full"><img src="/assets/images/Hossein.jpg" alt="">
+				<h3>Hossein Ali Naourei Kandan</h3>
+				<h4>Risk Assessor</h4>
+				<h4>Ministry of Primary Industry, NZ</h4>
+				<span class="pennant"><a href="mailto:ssenay@umn.edu" ><span class="fa fa-envelope-o"></span></a> <a href="http://www.researchgate.net/profile/Hossein_Narouei_Khandan"><span class="fa fa-desktop" style="font-size:13px;"></span></a> <a href="http://twitter.com/Hank_Narouei" ><span class="fa fa-twitter"></span></a> <a href="http://www.linkedin.com/in/hossein-narouei-khandan-84a61930" ><span class="fa fa-linkedin"></span></a></span>
+			</section>
+
+			<section class="4u">
+				<class="image full"><img src="/assets/images/Audrey.jpg" alt="">
+				<h3>Audrey Lustig</h3>
+				<h4>Research Assistant</h4>
+				<h4>Bio-Protection Research Centre, NZ</h4>
+				<span class="pennant"><a href="mailto:Audrey.Lustig@lincolnuni.ac.nz " ><span class="fa fa-envelope-o"></span></a> <a href="http://www.audreylustig.portfoliobox.me" ><span class="fa fa-desktop" style="font-size:13px;" ></span></a> <a href="http://github.com/AudreyL" ><span class="fa fa-github"></span></a> <a href="http://twitter.com/GustilyLu" ><span class="fa fa-twitter"></span></a> <a href="http://www.linkedin.com/in/audrey-lustig-b8221952" ><span class="fa fa-linkedin"></span></a> </span>
+			</section>
+			<section class="4u">
+				<class="image full"><img src="/assets/images/Mariona.jpg" alt="">
+				<h3>Mariona Roige</h3>
+				<h4>PhD Candidate</h4>
+				<h4>Bio-Protection Research Centre, NZ</h4>
+				<span class="pennant"><a href="mailto:Mariona.Roige@lincolnuni.ac.nz " ><span class="fa fa-envelope-o"></span></a> <a href="http://bioprotection.org.nz/users/mariona-roige" ><span class="fa fa-desktop" style="font-size:13px;" ></span></a> <a href="http://twitter.com/CinaOxitocina" ><span class="fa fa-twitter"></span></a> </span>
+			</section>
+			<section class="4u">
+				<class="image full"><img src="/assets/images/Marona.jpg" alt="">
+				<h3>Marona Rovira Capdevila</h3>
+				<h4>PhD Candidate</h4>
+				<h4>Bio-Protection Research Centre, NZ</h4>
+				<span class="pennant"><a href="mailto:Marona.RoviraCapdevila@lincolnuni.ac.nz " ><span class="fa fa-envelope-o"></span></a> <a href="http://bioprotection.org.nz/users/marona-rovira-capdevila" ><span class="fa fa-desktop" style="font-size:13px;" ></span></a> <a href="http://twitter.com/maronarovira" ><span class="fa fa-twitter"></span></a> <a href="http://www.linkedin.com/in/maria-del-mar-rovira-capdevila-a84b924a" ><span class="fa fa-linkedin"></span></a></span>
+			</section>
+			<section class="4u">
+				<class="image full"><img src="/assets/images/Ursula.jpg" alt="">
+				<h3>Ursula Torres</h3>
+				<h4>PhD Candidate</h4>
+				<h4>Bio-Protection Research Centre, NZ</h4>
+				<span class="pennant"><a href="mailto:Ursula.Torres@lincolnuni.ac.nz " ><span class="fa fa-envelope-o"></span></a> <a href="http://bioprotection.org.nz/users/ursula-torres" ><span class="fa fa-desktop" style="font-size:13px;" ></span></a> <a href="http://twitter.com/ursula_torres_m" ><span class="fa fa-twitter"></span></a></span>
+			</section>
+			<section class="4u">
+				<class="image full"><img src="/assets/images/Joel.jpg" alt="">
+				<h3>Joel Pitt</h3>
+				<h4>Machine Learning Researcher</h4>
+				<h4>8i, NZ</h4>
+				<span class="pennant"><a href="mailtojoel.pitt@gmail.com " ><span class="fa fa-envelope-o"></span></a> <a href="http://ferrouswheel.me/" ><span class="fa fa-desktop" style="font-size:13px;" ></span></a> <a href="http://github.com/ferrouswheel" ><span class="fa fa-github"></span></a> <a href="http://twitter.com/ferrouswheel" ><span class="fa fa-twitter"></span></a> <a href="http://www.linkedin.com/in/joelpitt" ><span class="fa fa-linkedin"></span></a></span>
+			</section>
+
+		</div>
+
+	
+		</div>
+	</div>
+<!-- /Main -->

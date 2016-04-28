@@ -1,0 +1,19 @@
+- text: Home
+  url: /
+- text: Research
+  url: /Research/
+  subitems:
+    - text: Prioritizing species
+      url: /Research/Prioritizing species/
+    - text: Establishment risk
+      url: /Research/Establishment risk/
+    - text: Spread risk
+      url: /Research/Spread risk/
+    - text: Ranking impacts
+      url: /Research/Ranking impacts/
+- text: Relevance
+  url: /Relevance/
+- text: Members
+  url: /Members/
+- text: Ressources
+  url: /Ressources/

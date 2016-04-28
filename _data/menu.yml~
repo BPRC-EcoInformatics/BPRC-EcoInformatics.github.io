@@ -1,0 +1,10 @@
+- text: Home
+  url: /
+- text: Research
+  url: /Research/
+- text: Relevance
+  url: /Relevance/
+- text: Members
+  url: /Members/
+- text: Ressources
+  url: /Ressources/

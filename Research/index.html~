@@ -1,0 +1,52 @@
+---
+title: Ecological Informatics
+layout: default
+---
+<!-- Main -->
+	<div id="main">
+		<div id="content" class="container">
+					<section>
+						<header>
+						<h2>Research themes</h2>
+						</header>
+						<subtitle> As a research group, we are constantly working to develop broad new skills in analytical, conceptual, and applied techniques that involve the ecoclimatic assessment of the distribution and spread of invasive species, particularly insects. Our goal is to provide quantitative tools for decision-makers to inform strategies for managing and preventing the risks associated with invasive species. We work across the biosecurity continuum with existing funded projects in:</subtitle>	
+<br>
+			<div class="row">
+				<section class="6u">
+					<a href="#" class="image full"><img src="/assets/images/rsz_2pic01.jpg" alt=""></a>
+					<header>
+						<h3>Identifying and prioritizing species</h3>
+					</header>
+					<p>The aim of the 'Prioritizing risk for emerging invasive species' project is to develop innovative quantitative tools for estimating the risk of future incursions across a broad range of emerging invasive pests and diseases. Novel cluster based analyses and validation techniques are used to investigate regional pest species assemblages or pest profiles to
+indicate the risk of new organism establishment. Quantitative approach to assess model uncertainties are proposed as the most appropriate way to deal with uncertainties.<br> <a href="{{ site.url }}{{ page.url }}/Establishment risk/index.html" class="button button-style1">Read More</a></p>
+				</section>
+				<section class="6u">
+					<a href="#" class="image full"><img src="/assets/images/rsz_pic02.jpg" alt=""></a>
+					<header>
+						<h3>Assessing establishment risk in pest risk analysis area</h3>
+					</header>
+					<p>The ecoclimatic assessment of the distribution of invasive species for explaining and predicting the distribution of invasive species across landscape is increasingly promoted for proactive management. Species distribution models (SDMs) provide a methodological framework to predict spatial distribution of organisms. Our team provide guidance to develop and apply species distribution models (SDMs) in the area of biosecurity research, bio-protection, and climate change. It mostly cover conceptual bases and explore how the perceptions of uncertainty can be incorporated into the pest risk assessment process to increase prediction accuracy.<br><a href="{{ site.url }}{{ page.url }}/Establishment risk/index.html" class="button button-style1">Read More</a></p>
+				</section>
+			</div>
+
+			<div class="row">
+				<section class="6u">
+					<a href="#" class="image full"><img src="/assets/images/rsz_4pic03.jpg" alt=""></a>
+					<header>
+						<h3>Quantitative assessment of spread in pest risk analysis</h3>
+					</header>
+					<p>The estimation of rate and patterns of spread is one of the key steps in a invasive species risk assessment. We are currently developing a spatially explicit models that link individual based models (IBM) of species spread with spatial information through GIS technology to support management and research in biosecurity and other disciplines. The modeling framework provides functionality for a wide variety of applications ranging from predictions of the spatio-temporal spread of real species and comparison of potential management strategies, to theoretical investigation of the effect habitat or climate change on population dynamics.<br> <a href="{{ site.url }}{{ page.url }}/Spread risk/index.html" class="button button-style1">Read More</a></p>
+				</section>
+				<section class="6u">
+					<a href="#" class="image full"><img src="/assets/images/pic04.jpg" alt=""></a>
+					<header>
+						<h3>Prioritization for ranking impacts</h3>
+					</header>
+					<p>Many analysts are confronted with questions about the overall impact of invasive species on native and anthropogenic ecosystems, as well as on socioeconomic systems. Oftentimes these questions are extremely difficult to address, due to limitations and inconsistencies in the scientific knowledgebase. In such cases, society often calls on experts for advice that requires judgments that go beyond well-established knowledge. In this project, we explore the use of structured approach for consulting judgments from experts about uncertain quantity or process in their domain of expertise.<br> <a href="{{ site.url }}{{ page.url }}/Ranking impacts/index.html" class="button button-style1">Read More</a></p>
+				</section>
+			</div>
+
+
+		</div>
+	</div>
+<!-- /Main -->
