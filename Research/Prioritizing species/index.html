@@ -9,6 +9,77 @@ layout: default
 						<header>
 						<h2>Identifying and prioritizing species</h2>
 						</header>	
+<br>
+<section>
+<header>
+<h3> What is a biosecurity risk?</h3>
+</header>
+<p><b>Biosecurity</b> is about keeping New Zealand or any risk analysis area free of unwanted organisms, and for controlling, managing or eradicating them should they arrive in the country.  The <a href="http://http://www.legislation.govt.nz/act/public/1993/0095/latest/DLM314623.html">Biosecurity Act 1993</a> set up the legal framework for managing biosecurity risk in New Zealand. <br></p>
+<p>The act helps decision-makers <b>effectively manage the risk</b> that come with importing goods, which may have harmful organism in or on them, and,  any planes and vessels coming into New Zealand water.<br></p>
+<p>Major challenges arise from the many thousands of species involved, from distinguishing those that are invasive from those that are not. One way to minimize surprises is to <b>prioritize long lists of potential invasive species</b> with potential to establish and cause significant impact in endangered area. Such prioritization is often qualitative and reactive instead of quantitative and proactive. However, given the projected rate of environmental change and associated risk of biological invasion, there is a growing interest in pre-emptively managing ecosystems to mitigate negative impacts of invasive species before significant damage occurs. <br></p>
+</section>
+<br>
+<section>
+<header>
+<h3> Reducing risk by prioritizing species</h3>
+</header>
+<p>To better manage invasions, the Ecological Informatics Research Group developed quantitative approaches to provide a <b>transparent, repeatable, and credible basis</b> for the Ministry of Primary Industry (MPI) and partner agencies to prioritize invasive species at a national level.</p>
+
+<p> In particular, Worner and Gevrey (2006) proposed the first fully quantitative methods for <b>ranking large number of invasive species with respect to their potiential establishment in a target area</b>. The method is based on the use of computational-intelligence analysis method and is more generally known as a self-organizing map or SOM. 
+
+<p> The basis of the SOM is that certain species tend to co-occur (sepcies assemblages) in particular regions around the world because of specific combination of environmental factors, such as climate and crop plantation. By comparing areas that share similar invasive species profiles, we can identify species not yet established that might prosper in the target area.</p> 
+
+<p> This method can be used to identify, from a large list of potential hazards, <b>which species present the most risk to target areas</b>. Furthermore, such analyses may <b>indicate donor and recipient regions</b> for pest invasion and can highlight previously unknown or ignored threats for further investigation. </p>
+</section>
+<br>
+<section>
+<header>
+<h3>Creating a SOM map and prioritizing species</h3>
+</header>
+<p> Typically, a SOM algorithm analyses <b>a matrix of presence/absence of a taxa of interest</b> recoreded over different geographical regions worlwide (Figure 1).  For example, Worner and Gevrey (2006) analysed the presence and absence of 844 insect pest species recorded over 459 geographical regions world-wide. Such data can be downloaded from global databases like the Crop protection compendium: <a href="http://www.cabi.org/cpc">CABI</a>.</p>
+
+<p>The SOM analysis classified the high dimensional data into a map of nodes such that <b>geographical areas that has similar pest species assemblages</b> are clustered together in specific nodes. For example, Worner and Gevrey (2006) found in their analysis of insect pest profiles that New Zealand shares a large number of pest species with Italy (59%), France (58%), Turkey (46%) and Morocco (48%). This similarity exists even though these countries do not appear to have analogous climates to New Zealand. The authors advised, further study of the pests from these countries to determine potential pathways by which serious invasive species could enter New Zealand seems warranted.
+
+<figure>
+    <class="image full"><img src="/assets/images/rsz_som_ppa_flow.jpg" alt="">
+    <figcaption><em>Figure 1: A Self-orignising map (SOM) for Pest Profile analysis (PPA) - Photo credit: Mariona Roige (unpiblished figure)</em></figcaption>
+</figure></p>
+<p>In addition, the SOM analysis attribute to each species <b>a weight that can be used to indicate those species most likely to establish in the target area</b> if given a suitable pathway. The higher the weight is, the greater the threat is to the target area. The actual weight are less important than the rank among species and the change in weight over time. Theoritically, the weights for each species provide a measure of association
+with the other species in the profile or, in other words, how frequently the target species co-occurs with the others in the pest profile around the world.</p>
+
+<p>The SOM analysis is <b>quantitative screening methods to identify and rank potentially high-risk invasive pest species</b>. The method provide a dynamic list, which can be revisited and re-evaluated annually. Such an analysis can then be used to support additional risk assessment of potential invasive species, giving invasive species researchers, conservation managers, quarantine and biosecurity scientists a means for prioritizing species as candidates for further research.</p>
+</section>
+
+<section>
+<header>
+<h3>Instruction and source codes</h3>
+</header>
+<p>Detailed instructions on how to install, use and run a Self-orignising map (SOM) for Pest Profile analysis (PPA) can be found here.</p>
+</section>
+
+
+<section>
+<header>
+<h3>Example of applications</h3>
+</header>
+<p><strong>Prioritizing insect pest species in New Zealand</strong><br>
+Worner and Gevrey (2006) analysed a list of of 844 insect pest species recorded over 459 geographical regions world-wide using a SOM for predicting
+the likelihood of successful invasions of future invasive alien pests in New Zealand. The majority of species identified as a potential risk for New Zealand are pests of orchards, berry bushes, or woody ornamentals. One of these species was <em>P. Brassicae</em> (Great White Butterfly), which was first found in Nelson, New Zealand 4 years later. <br>
+Publication: <em>Worner, S. P., and Muriel Gevrey. "Modelling global insect pest species assemblages to determine risk of invasion." Journal of Applied Ecology 43.5 (2006): 858-867 </em></p>
+
+<p><strong>Prioritizing invasive invertebrate pests in Finland</strong><br>
+Vänninen et al. (2011) updated the list of invasive invertebrate pests in Finland and identified potential new pests using a SOM analysis. SOM analysis suggests that the greatest risk from alien pests in Finland in the changing climate falls on horticultural crops. The uathors recommended SOM analysis as a useful complement to local expert knowledge to assess risks posed by invasive alien species.<br>
+Publication: <em>Vänninen, Irene, et al. "Recorded and potential alien invertebrate pests in Finnish agriculture and horticulture." Agricultural and Food Science 20.1 (2011): 96-114</em></p>
+
+<p><strong>Prioritizing plant-parasitic nematodes in Australia</strong><br>
+Singh et al. (2014) analysed a list of of 250 plant-parasitic nematodes species recorded over 355 geographical regions world-wide using a SOM to determine countries and regions which could act as a donor of potential invasive species. By integrating SOM analysis into a multi-criteria evluation framework qunantifying element such as existance of particular pathways, survival adaptations, pathogenecity, host range and others, the authors suggested that a species's biosecurity risk can be berrer estimated by intergating SOM results with expert opnion.<br>
+Publication: <em>Singh, Sunil K., et al. "Prioritising plant-parasitic nematode species biosecurity risks using self organising maps." Biological invasions 16.7 (2014): 1515-1530</em></p>
+
+<p><strong>Prioritizing economically important fruit fly species</strong><br>
+Qin et al. (2015) used  a SOM analysis as an initial screen support for prioritizing economically important fruit fly species for further research into their potential to invade a region.<br>
+Publication: <em>Qin, Yujia, et al. "Global establishment risk of economically important fruit fly species (Tephritidae)." PloS one 10.1 (2015): e0116424.</em></p>
+
+</section>
 		</div>
 	</div>
 <!-- /Main -->
