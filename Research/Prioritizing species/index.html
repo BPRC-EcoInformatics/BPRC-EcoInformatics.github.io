@@ -9,7 +9,7 @@ layout: default
 						<header>
 						<h2>Identifying and prioritizing species</h2>
 						</header>	
-<br>
+<!--<br>
 <section>
 <header>
 <h3> What is a biosecurity risk?</h3>
@@ -17,44 +17,62 @@ layout: default
 <p><b>Biosecurity</b> is about keeping New Zealand or any risk analysis area free of unwanted organisms, and for controlling, managing or eradicating them should they arrive in the country.  The <a href="http://http://www.legislation.govt.nz/act/public/1993/0095/latest/DLM314623.html">Biosecurity Act 1993</a> set up the legal framework for managing biosecurity risk in New Zealand. <br></p>
 <p>The act helps decision-makers <b>effectively manage the risk</b> that come with importing goods, which may have harmful organism in or on them, and,  any planes and vessels coming into New Zealand water.<br></p>
 <p>Major challenges arise from the many thousands of species involved, from distinguishing those that are invasive from those that are not. One way to minimize surprises is to <b>prioritize long lists of potential invasive species</b> with potential to establish and cause significant impact in endangered area. Such prioritization is often qualitative and reactive instead of quantitative and proactive. However, given the projected rate of environmental change and associated risk of biological invasion, there is a growing interest in pre-emptively managing ecosystems to mitigate negative impacts of invasive species before significant damage occurs. <br></p>
-</section>
+</section> -->
+
 <br>
 <section>
 <header>
 <h3> Reducing risk by prioritizing species</h3>
 </header>
-<p>To better manage invasions, the Ecological Informatics Research Group developed quantitative approaches to provide a <b>transparent, repeatable, and credible basis</b> for the Ministry of Primary Industry (MPI) and partner agencies to prioritize invasive species at a national level.</p>
+<p>To better manage unwanted invasions, the Ecological Informatics Research Group developed quantitative methods for risk assessors in Biosecurity agencies, such as the Ministry of Primary Industries (MPI) in New Zealand, or partner agencies which deal with the prioritization of invasive species at a national level.</p>
 
-<p> In particular, Worner and Gevrey (2006) proposed the first fully quantitative methods for <b>ranking large number of invasive species with respect to their potiential establishment in a target area</b>. The method is based on the use of computational-intelligence analysis method and is more generally known as a self-organizing map or SOM. 
+<p> In particular, Worner and Gevrey (2006)  proposed the first fully quantitative method for <b>ranking large number of invasive species with respect to their potiential establishment in a target area</b>. The method is based on the use of an artificial neural network algorithm, known as self-organizing map (SOM), which is applied to the analysis of the world's regions pest profile (pest profile analysis (PPA)), thus its name, SOM PPA. 
 
-<p> The basis of the SOM is that certain species tend to co-occur (sepcies assemblages) in particular regions around the world because of specific combination of environmental factors, such as climate and crop plantation. By comparing areas that share similar invasive species profiles, we can identify species not yet established that might prosper in the target area.</p> 
+<p> The theoretical hypothesis behind SOM PPA is that certain species tend to co-occur in particular regions around the world because of specific combination of biotic and abiotic factors. The group of pest species present in a certain area is called <b> species assemblage</b> or <b>pest profile</b> of the area. By comparing areas that share similar pest profiles, we can identify which areas can act as donors and recipients of species to each other and therefore, infer that species present in similar areas to the area of interest are a high threat.</p> 
 
-<p> This method can be used to identify, from a large list of potential hazards, <b>which species present the most risk to target areas</b>. Furthermore, such analyses may <b>indicate donor and recipient regions</b> for pest invasion and can highlight previously unknown or ignored threats for further investigation. </p>
+<p> SOM PPA can be used to identify, from a large list of potential hazards, which species present the most risk to the target area. Furthermore, such analysis may indicate donor and recipient regions for pest invasion and can highlight previously unknown or ignored threats for further investigation. </p>
+
 </section>
 <br>
 <section>
 <header>
-<h3>Creating a SOM map and prioritizing species</h3>
+<h3>How to run SOM PPA</h3>
 </header>
-<p> Typically, a SOM algorithm analyses <b>a matrix of presence/absence of a taxa of interest</b> recoreded over different geographical regions worlwide (Figure 1).  For example, Worner and Gevrey (2006) analysed the presence and absence of 844 insect pest species recorded over 459 geographical regions world-wide. Such data can be downloaded from global databases like the Crop protection compendium: <a href="http://www.cabi.org/cpc">CABI</a>.</p>
+<p> Typically, a SOM algorithm analyses <b>a matrix of presence/absence of a taxa of interest</b> recoreded over different geographical regions worlwide (Figure 1).  For example, Worner and Gevrey (2006)  analysed the presence and absence of 844 insect pest species recorded over 459 geographical regions world-wide. Such data can be downloaded from global databases like the Crop protection compendium: <a href="http://www.cabi.org/cpc">CABI</a>.</p>
 
-<p>The SOM analysis classified the high dimensional data into a map of nodes such that <b>geographical areas that has similar pest species assemblages</b> are clustered together in specific nodes. For example, Worner and Gevrey (2006) found in their analysis of insect pest profiles that New Zealand shares a large number of pest species with Italy (59%), France (58%), Turkey (46%) and Morocco (48%). This similarity exists even though these countries do not appear to have analogous climates to New Zealand. The authors advised, further study of the pests from these countries to determine potential pathways by which serious invasive species could enter New Zealand seems warranted.
-
+<p>The SOM analysis classified the high dimensional data into a map of nodes such that <b>geographical areas that has similar pest species assemblages</b> are clustered together in specific nodes. 
 <figure>
     <class="image full"><img src="/assets/images/rsz_som_ppa_flow.jpg" alt="">
-    <figcaption><em>Figure 1: A Self-orignising map (SOM) for Pest Profile analysis (PPA) - Photo credit: Mariona Roige (unpiblished figure)</em></figcaption>
+    <figcaption><em>Figure 1: Flowchart of SOM PPA  - Mariona Roigé </em></figcaption>
 </figure></p>
-<p>In addition, the SOM analysis attribute to each species <b>a weight that can be used to indicate those species most likely to establish in the target area</b> if given a suitable pathway. The higher the weight is, the greater the threat is to the target area. The actual weight are less important than the rank among species and the change in weight over time. Theoritically, the weights for each species provide a measure of association
+
+
+<p>In addition, the SOM analysis attribute to each species <b>a weight that can be used to indicate those species most likely to establish in the target area</b> if given a suitable pathway. The higher the weight is, the greater the threat is to the target area. The actual weights are less important than the ranks among species. Theoritically, the weights for each species provide a measure of association
 with the other species in the profile or, in other words, how frequently the target species co-occurs with the others in the pest profile around the world.</p>
 
 <p>The SOM analysis is <b>quantitative screening methods to identify and rank potentially high-risk invasive pest species</b>. The method provide a dynamic list, which can be revisited and re-evaluated annually. Such an analysis can then be used to support additional risk assessment of potential invasive species, giving invasive species researchers, conservation managers, quarantine and biosecurity scientists a means for prioritizing species as candidates for further research.</p>
 </section>
 
+<br>
+<section>
+<header>
+<h3>How to evaluate a SOM PPA</h3>
+</header>
+<p> As the risk values generated by SOM PPA are influenced by the individual cluster where the target region is allocated, good clustering is fundamental to obtain meaningful and interpretable risk lists. When performing cluster analysis, validity refers to the process of evaluation of the resulting clusters. For a SOM, there are two measures of goodness. They are the quantization error and the topological error. These two metrics are useful to describe the overall performance of the algorithm on the data set, but they do not provide any specific validity measure for each cluster.</p>
+
+<p> In <a href="http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12669/abstract"> Roige et al, 2016</a> we proposed a method for evaluating teach individual clusters resulting from a SOM PPA.  We used zeta diversity (<a href="https://www.ncbi.nlm.nih.gov/pubmed/25325751"> Hui and McGeoch, 2014</a>)  as an ecologically meaningful and generalizable metric of similarity. The application of zeta allowed us to quantify and thus reveal different levels of similarity across pest profiles. Furthermore, the use of f diversity applied to SOM PPA provides an informative measure of uncertainty for the output of SOM PPA, thus adding major improvements to the methodology while only marginally increasing its complexity. </p>
+
+
+
 <section>
 <header>
 <h3>Instruction and source codes</h3>
 </header>
-<p>Detailed instructions on how to install, use and run a Self-orignising map (SOM) for Pest Profile analysis (PPA) can be found here.</p>
+<p>Detailed instructions on how to install, use and run a Self-orignising map (SOM) for Pest Profile analysis (PPA) using MATLAB can be found
+<a href="/assets/scripts/Script_SOM.m" download> here.</a></p>
+
+<p>Detailed instructions and R scripts of using zeta diversity metric as a validity assessment metric for SOM PPA can be found
+<a href="/assets/scripts/zetascripts.tar.gz" download> here.</a></p>
 </section>
 
 
@@ -80,6 +98,7 @@ Qin et al. (2015) used  a SOM analysis as an initial screen support for prioriti
 Publication: <em>Qin, Yujia, et al. "Global establishment risk of economically important fruit fly species (Tephritidae)." PloS one 10.1 (2015): e0116424.</em></p>
 
 </section>
+
 		</div>
 	</div>
 <!-- /Main -->
