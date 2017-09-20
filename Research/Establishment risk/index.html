@@ -7,9 +7,110 @@ layout: default
 		<div id="content" class="container">
 					<section>
 						<header>
-						<h2>Assessing establishment risk in pest risk analysis area</h2>
-						</header>	
-						Page in construction
+						<h2>Assessing establishment risk </h2>
+						</header>
+<br>
+<section>
+<header>
+<h3> What is a species distribution model? (SDM) </h3>
+</header>
+<p><b>Species distribution models (SDMs)</b> also known as climate envelope-models, habitat models or
+ecological niche models, are numerical tools for modeling, evaluating and predicting species
+potential distributions in space and time. These numerical techniques support a rich diversity of
+applications, for example, evaluating the potential of an invasive species to establish in a particular
+region, identifying areas that should be prioritized for conservation, or determining the
+distribution of disease vectors for targeting health programmes. SDMs can also be used to project
+distributions and impacts from future land-use or climate scenarios. There are many
+ reasons we want to know where particular species can occur. However,
+there are also many questions regarding the methodologies we use to do so. <br></p>
+</section> 
+
+	
+<br>
+<section>
+<header>
+<h3>How do species distribution models work?</h3>
+</header>
+<p>
+Developing a species distribution model begins with collecting observations of species
+occurrences. Species occurrences are places where we know a species has been found. These
+occurrences are mostly point-based and come from sources such as museum records, national
+and international databases and observations of experts in the field. The question is how do we go
+from specific places where individuals of a species have been observed to producing a map that
+gives an estimate of the distribution of that species in other areas of interest? This is where
+species distribution models come into play.</p>
+
+<p>SDMs link current locations of species occurrences with values of environmental
+predictor variables (such as temperature and precipitation) at these locations to estimate the
+<b>probability of a species occurring </b> as some function of the environmental conditions of that location.
+The predicted species distribution can then be projected geographically on a map. For every point
+in the landscape, the model estimates the probability of a species occurring there. This can either
+be displayed as a binary outcome, in other words, as a presence/absence map, or as a probability
+on a scale from 0 to 1. It is important to note that these maps do not show actual occurrences of a
+species, but highlight areas that have similar environmental conditions to areas where the species
+has already been found. <b>Thus the map provides an estimation of where a species might find
+suitable or unsuitable habitat or climate</b> . This does not necessarily mean that a species actually
+exists or does not exist in the area.</p>
+<br>
+<section>
+<header>
+<h3>Niche conservatism, a source of uncertainty in SDMs </h3>
+</header>
+<p>One assumption for predicting species distributions using correlative SDMs, is that species occupy
+all or most of the suitable geographic areas in its native range. A second necessary assumption for
+these statistical models is that the species realized environmental niche, as determined from
+empirical observations, remains stable over time and space, a phenomenon called ecological niche
+conservatism. The validity of these assumptions remains a matter of contention.</p>
+<br>
+<section>
+<header>
+<h3>Niche shifts in an invasive species context
+</h3>
+</header>
+<p>Correlative SDMs implicitly focus on estimation of a species realized and fundamental niche
+based on its current geographical distribution. The methods rely on the niche conservatism
+assumption which implies that <b>species tend to grow and survive under the same environmental
+conditions in native and invaded ranges</b>. However, this assumption has been challenged recently
+by evidence of niche shifts in some invasive species. One reason for uncertainty regarding niche
+conservatism is that species ecological flexibility and/or genetic adaptation can impact the
+observed degree of conservatism and the accuracy of predicted species distributions. For
+example, niche shift may result from changes in the realized niche when species spreads into
+habitats in the invaded range that are climatically distinct from those occupied in the native range.
+This may happen if some constraint, such as a certain predator, parasite or disease is present in
+the native area but not in the invasive area. Alternatively a niche-shift could involve both the
+fundamental and realized niches, if, for example, the genetically-determined environmental
+tolerances of a species were to respond to selection during range expansion.</p>
+<p>Accurately characterizing the nature of the niche changes between the native and invaded range is
+crucial to correctly anticipate species distribution and manage that species. If an invasive species
+conserves the environmental preferences of their native range, SDMs should accurately forecast
+suitable areas in the non-native range and can serve as a basis for prioritizing areas at high risk of
+invasion. On the contrary, if a niche shift has occurred, the invader’s potential habitats should be
+considered carefully since it can establish in environments not occupied in the native range making
+it difficult to prioritize areas and therefore hampering its management.</p>
+<br>
+<section>
+<header>
+<h2>Instructions and codes</h2>
+</header>
+<p> The Ecological informatics lab have been developing R scripts to clean data, run SDMs, analyze the niche dynamics of particular species
+and apply ensemble modelling to assess the uncertainty present in SDMs.</p>
+
+<p>For climatic and distributional datasets please check the available links on our
+<a href="https://bprc-ecoinformatics.github.io/Resources/">Resources </a> tab.</p>
+
+
+<p> R scripts to clean the data <a href="/assets/scripts/0_1_datacleaning.tar.gz" download> here.</a></p>
+<p> R scripts to perform niche analysis <a href="/assets/scripts/2_NicheAnalysis" download> here.</a></p>
+<p> R scripts to perform 3 step analysis <a href="/assets/scripts/3_3stepanalysis" download> here.</a></p>
+<p> R scripts to perform Multi Model Analysis (MMA) <a href="/assets/scripts/4_MMA" download> here.</a></p>
+<p> R scripts to perform ensemble modelling for uncertainty assessment <a href="/assets/scripts/5_Ensemble" download> here.</a></p>
+
+
+
+
+
+
+
 		</div>
 	</div>
 <!-- /Main -->
