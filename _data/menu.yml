@@ -1,5 +1,7 @@
 - text: Home
   url: /
+- text: Relevance
+  url: /Relevance/
 - text: Research
   url: /Research/
   subitems:
@@ -11,12 +13,7 @@
       url: /Research/Spread risk/
     - text: Ranking impacts
       url: /Research/Ranking impacts/
-- text: Relevance
-  url: /Relevance/
 - text: Members
   url: /Members/
 - text: Resources
-  url: /Ressources/
-- text: Extras
-  url: /Extras/
-  
+  url: /Resources/
