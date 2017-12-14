@@ -7,7 +7,9 @@ layout: default
 		<div id="content" class="container">
 					<section>
 						<header>
-						<h2>Quantitative assessment of spread in pest risk analysis</h2>
+						<h2>Where will invasive species go? </h2>
+						<br>
+						<h3> Modelling the spread of an invasive species using mechanitsic approaches.</h3>
 						</header>
 <br>
 <section>
@@ -16,7 +18,7 @@ layout: default
 </header>
 <p>Understanding <b>the fundamental properties of the distribution and abundance of species in time and space</b> has many potential benefits for applied ecology, including both the management of problem species and the conservation of rare and threatened ones. The estimation of rate and patterns of spread is also one of the key steps in a invasive species risk assessment. Our research includes describing, modelling and predicting spatial relationships between macroecological variables and species' population distribution through time.</p>
 
-<p>Understanding how organisms spread has long been a key focus of dispersal ecology and biogeography. Research on this topic has focused most strongly on <b>the dynamics of range changes</b>, rather than on invasion-related questions. Key questions include the following: (i) drivers and contribution of different vectors to dispersal; (ii) temporal and spatial variation in spread rates; and (iii) impact and control of spread in human-dominated ecosystems. Despite significant theoretical and conceptual progress has been made, mechanistic models that are able to predict both the temporal and spatial variation of spread, from time lag to spread acceleration, as well as how different environments can influence spread rates at different localities, are needed. </p>
+<!--<p>Understanding how organisms spread has long been a key focus of dispersal ecology and biogeography. Research on this topic has focused most strongly on <b>the dynamics of range changes</b>, rather than on invasion-related questions. Key questions include the following: (i) drivers and contribution of different vectors to dispersal; (ii) temporal and spatial variation in spread rates; and (iii) impact and control of spread in human-dominated ecosystems. Despite significant theoretical and conceptual progress has been made, mechanistic models that are able to predict both the temporal and spatial variation of spread, from time lag to spread acceleration, as well as how different environments can influence spread rates at different localities, are needed. </p>
 
 <p>Our team is currently developing a spatially explicit models that link individual based models (IBM) of species spread with spatial information through GIS technology to support management and research in biosecurity and other disciplines. The modeling framework provides functionality for a wide variety of applications ranging from predictions of the spatio-temporal spread of real species and comparison of potential management strategies, to theoretical investigation of the effect habitat or climate change on population dynamics.</p><br>
 </section>
@@ -24,9 +26,141 @@ layout: default
 <section>
 <header>
 <h2>Instructions and codes</h2>
+</header> -->
+
+
+<br>
+<section>
+<header>
+<h3> 
+Correlative versus mechanistic models
+</h3>
 </header>
 
+<p> Quantitative prediction of species’ establishment success relies heavily on correlative species distribution models (SDMs) that estimate future areas of occupancy of the species based on environmental conditions encountered in present-day ranges (See Section ...). Such models, known as <b>correlative SDMs, benefit from rapid assessment of vulnerability for a large number of organisms</b>, since they can be applied to a vast diversity of taxa over large spatial scale and  require relatively few data (sometimes all they require is species presence records). Correlative SDMs have been applied to assess establishment risk of invasive species into novel environments; however, awareness of their limitations has prompted appeals to improve methodology. In particular, correlative SDMs reveal little in the way of causal mechanisms that define changes in species distribution or abundance over time and space, and ignore key demographic, dispersal and evolutionary processes. Incorporating these complex range-limiting processes in defining species distributions is regarded as a means to increase the accuracy of correlative SDMs.</p>
 
+<p> Mechanistic models, on the other hand, are complemented with physiological information which can help identifying demographic, spread and evolutionary processes that set species range boundaries. Such models are sometimes refereed to as mechanistic SDMs or processed-based SDMs. Implementation of mechanistic models requires knowledge of how abiotic and biotic conditions influence demographic processes (such as growth, survival) and dispersal processes (distances traveled, frequency of dispersal events). Mechanistic models have been used to forecast the rate, direction and success of future dispersal events. In the area of invasive species risk assessment, <b>mechanistic models help to identify the role of different spread pathways, and have also been used to assess the value of the adoption of strategic control zones to slow the spread of invasive species</b>. The most recent mechanistic approaches incorporate different levels of complexity such as: dynamics of population growth, stratified dispersal, propagule pressure, Allee effects, realistic habitat landscape heterogeneity using a geographic information systems (GIS) framework, climatic variability or host diversity.</p>
+
+
+<p> <b>Mechanistic SDMs are more challenging to develop than correlative SDMs</b>, especially at large scales, because they require more time, computational capacity and data to be constructed, parameterized, and validated. In addition, only few species that are very well-studied have all the aformentioned layers of information available, therefore, the use of mechanistic modelling in the context of establishment and spread risk assessment is currently limited. This knowledge gap presents an opportunity to physiologists to collaborate with modellers and risk assessors to contribute more directly to the development of quantitative risk assessments. </p>
+
+<header>
+<h3>
+A mechanistic approach, MDiG
+</h3>
+</header>
+
+<p>We are currently developing a spatially-explicit, mechanistic modelling framework that link individual based models (IBM) of species spread with spatial information through GIS technology to support management and research in biosecurity and other disciplines. The modelling framework is called MDiG (Modular Dispersal Framework). </p>
+
+<br>
+<section>
+<header>
+<h3>
+Case studies
+</h3>
+</header>
+
+<header>
+<h4>
+Reproducing historical spread rates and patterns of invasive insects and plants
+</h4>
+</header>
+
+<p>MDiG was originally developed by Dr.Joel Pitt as a generic spread modelling tool aimed to compare potential management strategies. In their seminal work, Dr. Pitt and collegues (2009) used a mechanistic approach to recreate the historical spread of the Argentine ant <i>(Linepithema humile)</i> in New Zealand. Simple population dynamics (growth and habitat dependence mortality) and stratified dispersal (natural and human-mediated spread) were integrated within a GIS-landscape. The model was calibrated using the spread and reproduction data of <i>L. humile</i>, and then used to project the temporal progression of the species in New Zealand, from its site of introduction, Auckland port. High-resolution probabilistic maps simulating local and human-assisted spread across large geographic regions were generated to predict dispersal rates and pinpoint at-risk areas at a yearly time-step. These predictions were validated using historical spread data of the Argentine ant in New Zealand and were found to closely reproduce the real life observed patterns</p>
+
+<figure>
+    <class="image full"><img src="/assets/images/spreadgif.gif" alt="">
+    <figcaption><em> Pitt JPW, Worner SP & Suarez (2009). Predicting Argentine ant spread over the heterogeneous landscape using a spatially explicit stochastic model. </em></figcaption>
+</figure></p>
+
+<p>In 2011, Dr. Pitt and collegues used MDiG to recreate the historical spread of <i>Buddleja davidii</i>, also called summer butterfly bush lilac, in New Zealand. This plant is native to central China and Japan, and has been classified as an invasive species in many countries with temperate climates, including New Zealand. The mechanistic framework MDiG was used to parametrize an age structure population dynamic model (age-dependent reproduction and habitat dependence mortality), coupled to age-dependent stochastic local spread model and long-distance dispersal model, within a GIS-landscape. MDiG was calibrated using European spread data and reproduction data and then used to project the temporal progression of <i>B. davidii's</i> distribution in New Zealand, starting from several different historical distributions. The simulation initialized in 1951 and run to 2008. <b>The simulated spread showed reasonable agreement with occurrence data in New Zealand </b>. This result showed the ability of MDiG to inform strategic management of invasions at the moderate spatial and temporal scales that are relevant to regional public land management agencies. </p>
+
+
+
+<br>
+<header>
+<h4>
+Forecasting spread rates and patterns and assessing the sucess of eradication programs
+</header>
+</h4>
+
+<p>Dr Senay (2014), Dr. Lustig and collegues (2017) used MDiG to forecast the potential distribution of the Great White Butterfly (<i>Pieris brassicae</i>) in New Zealand. The species is a butterfly native to Europe and Asia, and was first found in Nelson, New Zealand, in May 2010. Following the discovery of this species, a concerted effort between the Ministry for Primary Industries (MPI) and the Department of Conservation (DOC) has resulted in <b>successfully preventing the spread of the butterfly in New Zealand</b>.</p>
+
+<figure>
+    <class="image full"><img src="/assets/images/suitabilitypierisbrassica.jpg" alt="">
+    <figcaption><em> Lustig <i>et al.</i>, (2017). Two suitability maps used to build the survival layers of <i>Pieris Brassicae</i>. </em></figcaption>
+</figure></p>
+
+
+<p> The species was a priority concern as it has the potential to cause huge economic losses to brassica production (e.g. cabbage, brussels sprouts, swede, turnip), as well as the destruction of endangered native cresses. MDiG was used to parametrize a simple population dynamics (growth and habitat dependence mortality) and stratified dispersal (naural and long-distance spread) within a GIS-landscape.  MDiG was calibrated using European spread data and reproduction data and then used to project the temporal progression of the distribution of <i>P. brassicae</i>  in New Zealand, starting from its site of introduction, Nelson port. Different spread scenarios were used to illustrate the effect of using multiple levels of detail in the landscape, including climate suitability (effect of growing degree days), host availability and local elevation, to improve spread rate and dispersion pattern estimations. </p>
+<p>Dr Senay (2014) further used MdiG to assess the success of the eradication programme carried out during years 2012-2013 based on <i>P. Brassicae’s</i> survey data points available for Nelson area.</p>
+
+
+<header>
+<h4>
+Assessing the effect of landscape structure on population dynamcis and spread
+</header>
+</h4>
+
+<p>In 2017, Dr. Lustig and colleges integrated MDiG with a landscape generator that allows to generate replicated landscape patterns with partially controllable spatial properties. MDIG was used to assess the effect of different landscape structure (habitat composition and configuration) on the spread of different invasive insects. The authors used 27 different reproductive and dispersal parameters in the model. Nine different landscape structures were simulated to investigate how change in habitat composition and configuration can affect population density and the dispersal abilities of the species Asian gypsy moth, <i>Lymantria dispar</i>. Increasing the percentage of suitable habitat cover in the landscape and the degree of connectedness among suitable patches on a landscape resulted, on average, in a more prolific spread but reduced the local density of the population. This asymmetry in the response to changes in the structure of the landscape suggests that species that have limited dispersal opportunities tend to maximize their populations locally but will be limited for establishing a population over a large area. On the other hand, species that have high dispersal opportunities may spread but face the added risk of not establishing or going extinct due to lower population density and consequent Allee effects. Interestingly, the response of the species to changes in habitat structure was independent of the intrinsic dispersal abilities of the species. However, species with a higher intrinsic rate of increase systematically outperformed species with a lower rate of intrinsic increase.</p>
+
+<br>
+<section>
+<header>
+<h3>
+Relevance
+</h3>
+</header>
+
+<p>The estimation of rate and patterns of spread is one of the key steps in a invasive species risk assessment. Quantitative spread risk assessments should influence how environmental authorities or government agencies respond to an initial incursion. In particular, high-resolution predictions of how, where, and the speed at which a newly established invasive population will spread across the surrounding heterogeneous landscape can greatly assist appropriate and timely risk assessments and control decisions. </p>
+
+<p>As illustrated above, the modeling framework MDIG can help in this process. The framework is unique in two key aspects. First, <b>MDiG allows much greater realism when modeling reproduction and dispersal processes</b>, as it accounts for inter-individual variability and important stochasticities. Second, the framework <b>explicitly relates demographic and dispersal processes to the landscape in which these processes occur </b>, using either the open-source GIS program GRASS or computer-generated landscapes. MDiG, therefore, offers possibilities for a broad range of simulation-based modeling experiments, from predictions of the spatio-temporal spread of real species and comparison of potential management strategies, to theoretical investigation of the effect habitat or climate change on population dynamics.</p>
+
+<p>To date, a lack of suitable data has meant that most broad scale dispersal models using MDiG have not been validated over a large variety of organisms, thus, their predictive ability and reliability has remained unscrutinized. Nevertheless, initial validation of MDiG showed that prediction of spread were in reasonable agreement with observed patterns, particularly within the first years of the simulations. This suggests that a mechanistic method such as MDiG can be particularly useful for informing small scale and short term invasion management activities such as surveillance, containment and local eradication. </p>
+
+
+<br>
+<section>
+<header>
+<h3>
+How to use MDiG
+</h3>
+<h4>
+Installation (Linux and Windows)
+</h4>
+<br>
+
+<p>MDiG is a freely available, open-sourced application developed by Dr. Pitt (2008). Source codes, installation instructions, user guide, example of applications and community support information can be found at https://github.com/ferrouswheel/mdig/wiki. 
+MDiG consists of two parts: 1) a simulation manager that reads a model definition file formatted in XML that defines when and how demography, dispersal, simulation results, and other model aspects are specified;  2) some GRASS-GIS modules that link individual based models (IBM) of species spread with spatial information through GIS technology.
+It is therefore important to download and setup GRASS-GIS (a powerful open-source GIS program http://grass.osgeo.org), along with the MdiG simulation manager. Information can be found <a href="ttps://github.com/ferrouswheel/mdig/wiki/Installation-on-Linux">in the author's github repository </a> </p> 
+
+<header>
+<h4>
+Setting up and running a model 
+</h4>
+</header>
+
+<p>The model definition is specified in a file formatted in XML that defines when and how demography, dispersal, simulation results, and other model aspects are specified. Details and examples can be found in the MDiG user guide https://github.com/ferrouswheel/mdig/wiki/User-Guide.
+The flexibility of the model facilitates future research and risk assessments by allowing influences on growth and dispersal, additional to those investigated in previous work, to be easily incorporated and investigated. However, we recognized that the software is not necessarily user-friendly (steep learning curve and minimal GUI) and therefore don’t hesitate to get in touch with the MDiG community mdig-user@googlegroups.com
+how to use MDiG', I think we need to add a paragraph on the fact that the model is very sensitive to its initial parameter values. It is therefore recommended to use different values as input parameters to challenge what we think we know (Joel called that the model instances) and for each instance to replicate the model a couple of time to overcome issue with its stochasticity.  This might need to be describe in more details. </p>
+
+<br>
+<section>
+<header>
+<h3>
+Perspective
+</h3>
+</header>
+
+<p>Advances modelling establishment and spread of invasive species will be determined by the ability to surmount the challenges of spatial scale and heterogeneity, temporal variation, and system complexity. New inferential and predictive methods, such as the MDiG modelling framework, will be applied to better represent population growth, density, rate of spread and trajectories of invasive species over different taxonomic groups and spatial scales, in environmentally and demographic explicit contexts. </p>
+
+<p>Along with the increasing application of mechanistics approaches such as MDiG, criticism has been raised concerning the usefulness of such models for guiding effective management of invasive species. Spatially explicit spread models are considered to be biologically and technically complex, and require too many poorly known parameters for their projections to be reliable in practice. In particular, complex spatially explicit spread models might not provide credible quantitative estimates of where a species might establish and spread, particularly at local scales. </p>
+
+<p>We argue that, although we are constantly making incremental progress to understand, characterize, and forecast the invasion process, it is clear that uncertainty is here to stay. Nevertheless, we believe models are often most useful for challenging what we think we understand. For example, investigating the use of different modelling approaches (different model structures and parameters) and the impact on projections performance could help identify the optimal trade-offs between precision and complexity needed for better predictions. Further research to correctly and consistently assess as well as communicate uncertainty around spread modelling is needed, so that end-users can make more informed decisions about the potential for invasive species establishment and spread into new areas.</p>
+
+
+<br>
+<section>
 <p>For climatic and distributional datasets please check the available links on our
 <a href="https://bprc-ecoinformatics.github.io/Resources/">Resources </a> tab.</p>
 
